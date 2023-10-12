@@ -1,6 +1,7 @@
 /* Add a background color to the body of the page*/
 body{
    background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Header section */
