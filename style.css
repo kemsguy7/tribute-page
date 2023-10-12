@@ -1,0 +1,44 @@
+/* Add a background color to the body of the page*/
+body{
+   background-color: black;
+}
+
+/*Header section */
+.header {
+    background-color: bisque;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+/*Content section styles */
+.main{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: bisque;
+    border:2px solid black ;
+}
+
+/*Image inside the main tag */
+.main > img {
+    max-width: 300px;
+    max-height: 300px; 
+    margin: auto;
+}
+
+/*Quote section */
+.quote {
+    background-color: aliceblue;
+    border-left: 3px solid blue;
+}
+
+/*Making the nested list item squared */
+ul{
+    list-style-type: square;
+}
+
+/* Aligns the content of the list to the left  */
+li{
+    text-align: left;
+}
